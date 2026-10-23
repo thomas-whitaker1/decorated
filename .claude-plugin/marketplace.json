@@ -1,0 +1,14 @@
+{
+  "name": "decorated",
+  "owner": { "name": "Thomas Whitaker" },
+  "description": "The decorated mod for Claude Code: charts, diagrams and callouts drawn in Claude's replies.",
+  "plugins": [
+    {
+      "name": "decorated",
+      "source": "./",
+      "homepage": "https://github.com/thomas-whitaker1/decorated",
+      "repository": "https://github.com/thomas-whitaker1/decorated",
+      "description": "Draws a small tag language in Claude's replies: colored spans, callouts, bar and line charts, heat maps, flow and sequence diagrams, trees, checklists and inline SVG."
+    }
+  ]
+}

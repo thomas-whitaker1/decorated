@@ -1,0 +1,12 @@
+{
+  "name": "decorated",
+  "version": "0.1.0",
+  "description": "Teaches Claude a small tag language and draws it in its replies: colored spans, callouts, charts, heat maps, flow and sequence diagrams, trees, checklists and SVG images, animated with SMIL.",
+  "author": {
+    "name": "Thomas Whitaker"
+  },
+  "homepage": "https://github.com/thomas-whitaker1/decorated",
+  "repository": "https://github.com/thomas-whitaker1/decorated",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
