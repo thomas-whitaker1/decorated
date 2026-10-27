@@ -104,7 +104,7 @@ Checked on 2.1.309 in October 2026:
 | Terminal | Draws | Notes |
 |---|---|---|
 | Windows Terminal | yes | |
-| VS Code integrated terminal | yes | |
+| VS Code integrated terminal | yes | 256 colors on Claude Code 2.1.311, which limits its xterm.js terminal: heat maps and SVG gradients band |
 | conhost | partly | the fractional blocks of bars, sparklines and meters are missing glyphs |
 | kitty 0.41 (Linux) | yes | |
 | Ghostty 1.3 (Linux) | yes | |
@@ -166,6 +166,8 @@ Most of these are in the tables above; this is the whole list in one place.
   small gaps.
 - **conhost** (the old Windows console): bars, sparklines and meters show
   missing-glyph boxes for their fractional blocks. Windows Terminal is fine.
+- **VS Code integrated terminal:** Claude Code 2.1.311 limits it to 256 colors,
+  with no setting to lift it, so heat maps and SVG gradients band.
 - **tmux:** 256 colors unless `CLAUDE_CODE_TMUX_TRUECOLOR=1` is set, so heat
   maps and SVG gradients band.
 - **iTerm2** is untested.
